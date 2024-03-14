@@ -1,0 +1,19 @@
+meta:
+  identifier: global-net
+
+clusters:
+  - identifier: cluster-c11
+    clusterType: region
+    nodesCount: 3
+nodes:
+  - identifier: node1
+    cluster: cluster-c11
+    region: us-east-1
+    compute:
+      cpu: 120Ghz
+      ram: 12Mb
+  - identifier: node2
+    region: us-east-1
+    compute:
+      ram: 111GHz
+      cpu: 333Gb
